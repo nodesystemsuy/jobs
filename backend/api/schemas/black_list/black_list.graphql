@@ -1,0 +1,41 @@
+scalar Time
+
+type BlackList {
+    id: Int!
+    description: String!
+    created_at: Time!
+}
+
+input NewBlackList {
+    id: Int!
+    description: String!
+}
+
+input UpdateBlackList {
+    id: Int!
+    description: String!
+}
+
+input RequestNewBlackList {
+    data: NewBlackList!
+}
+
+input RequestUpdateBlackList {
+    data: UpdateBlackList!
+}
+
+type ResponseBlackList {
+    error: Boolean!
+    data: BlackList
+    code: Int!
+    msg: String!
+    type: String!
+}
+
+type AllResponseBlackList {
+    error: Boolean!
+    data: [BlackList]!
+    code: Int!
+    msg: String!
+    type: String!
+}

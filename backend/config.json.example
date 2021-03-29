@@ -1,0 +1,19 @@
+{
+  "app_service_name": "jobs-backend",
+  "app_port": 50025,
+  "app_allowed_domains": "*",
+  "app_path_log": "./log",
+  "app_log_review_interval":60,
+  "app_register_log": true,
+  "app_rsa_private_key": "../rsa/app.rsa",
+  "app_rsa_public_key": "../rsa/app.rsa.pub",
+  "app_logger_http": true,
+  "db_connection": "postgres",
+  "db_server": "",
+  "db_port": 0,
+  "db_name": "",
+  "db_user": "",
+  "db_password": "",
+  "db_instance": "",
+  "db_is_secure": false
+}

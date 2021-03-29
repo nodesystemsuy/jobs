@@ -1,0 +1,31 @@
+<div class="w-100 h-100 p-a z-i-99 bg-black-node-o-90 c-f-1">
+    <div
+        class="w-auto max-w-60 max-h-80 h-auto c-p-2 centered c-bg-9 c-br-2 c-bg-1">
+        <div class="w-auto r-h-c h-auto h-pr-fl-ma c-p-1 flexbox f-w-w ">
+            <div *ngIf="title" class="w-100 flex-auto h-auto h-pr-fl-ma medium f-w-bo c-p-1 t-a-c">{{title}}
+            </div>
+            <div *ngIf="content" class="w-100 flex-auto h-auto h-pr-fl-ma normal c-p-1 t-a-c">{{content}}
+            </div>
+
+        </div>
+        <div *ngIf="buttons" class="w-100 h-10vh h-pr-fl-ma c-bg-10 c-br-1 {{buttons}} ">
+            <div class="w-auto h-auto centered  flexbox">
+              <div *ngIf="delete" class="w-auto h-auto m-3px flex-auto {{delete}} ">
+                <Btn text="ELIMINAR" theme="alert"></Btn>
+            </div>
+            <div *ngIf="caution" class="w-auto h-auto m-3px flex-auto {{caution}} ">
+              <Btn text="CUIDADO" theme="caution"></Btn>
+          </div>
+                <div *ngIf="cancel" class="w-auto h-auto m-3px flex-auto {{cancel}} ">
+                    <Btn text="CANCELAR" theme="alert"></Btn>
+                </div>
+                <div *ngIf="accept" class="w-auto h-auto m-3px flex-auto {{accept}} ">
+                    <Btn text="ACEPTAR" theme="success"></Btn>
+                </div>
+                <div *ngIf="confirm" class="w-auto h-auto m-3px flex-auto {{confirm}} ">
+                  <Btn text="CONFIRMAR" theme="info"></Btn>
+              </div>
+
+            </div>
+        </div>
+    </div>

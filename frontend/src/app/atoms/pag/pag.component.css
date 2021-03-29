@@ -1,0 +1,21 @@
+.Pag {
+  min-width: 30px;
+  text-align: center;
+  background: inherit;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  overflow-wrap: break-word;
+  margin-left: 1px;
+  margin-right:1px;
+
+
+}
+.Pag i {
+  line-height: inherit;
+  text-align: center;
+  background: inherit;
+  color: inherit;
+  font-size: inherit;
+
+}

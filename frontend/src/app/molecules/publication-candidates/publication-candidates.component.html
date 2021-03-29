@@ -1,0 +1,50 @@
+<div class="w-100 h-35px d-i-f h-pr-fl-ma c-bg-9 c-br-1 c-p-1 m-b-5px">
+    <div class="w-100 h-100 c-f-1 h-pr-fl-ma flexbox d-i-f">
+        <div class="w-10 h-100 flex-auto">
+            <div
+                *ngIf="Urg"
+                class="alert small fas fa-exclamation r-v-c b-s-b-b c-br-1  p-l-10px p-r-10px p-t-3px p-b-3px"></div>
+        </div>
+        <div class="w-20 flex-auto h-auto h-pr-fl-ma small t-of-e p-t-4px">
+            {{Cargo}}
+        </div>
+        <div
+            class="w-10 flex-auto h-auto h-pr-fl-ma small t-a-c t-of-e p-t-4px c-green-node">
+            {{Monto}}
+        </div>
+        <div class="w-10 flex-auto h-auto h-pr-fl-ma small t-a-c t-of-e p-t-4px">
+            {{Moneda}}
+        </div>
+        <div class="w-10 flex-auto h-auto h-pr-fl-ma small t-a-c t-of-e p-t-4px">
+            ALGO MAS
+        </div>
+        <div class="w-10 flex-auto h-auto h-pr-fl-ma small t-a-c t-of-e p-t-4px">
+            123145
+        </div>
+        <div class="w-10 flex-auto h-auto h-pr-fl-ma small t-a-c t-of-e p-t-4px">
+            ÓAKSDÑKM
+        </div>
+        <div class="w-20 h-auto flex-auto h-pr-fl-ma small">
+            <div class="w-auto h-auto h-pr-fr-ma">
+
+                <div
+                    class="w-and-h-25px c-bg-8  small b-s-b-b c-br-1 h-e c-p p-l-10px p-r-10px p-t-3px p-b-3px">
+                    <i class="fas fa-chevron-down centered c-inh "></i>
+                </div>
+            </div>
+            <div class="w-auto h-auto h-pr-fr-ma m-r-3px ">
+                <div
+                    class="w-and-h-25px c-bg-8  small b-s-b-b c-br-1 h-e c-p p-l-10px p-r-10px p-t-3px p-b-3px ">
+                    <i class="fas fa-eye centered c-inh "></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div *ngIf="children" class="w-100 h-100 h-pr-fl-ma">
+        {{children}}
+    </div>
+
+</div>

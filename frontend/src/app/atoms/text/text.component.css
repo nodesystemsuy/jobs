@@ -1,0 +1,7 @@
+.Text{
+  word-break: break-all;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  line-height: 1em;
+}

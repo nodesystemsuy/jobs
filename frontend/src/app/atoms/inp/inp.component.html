@@ -1,0 +1,27 @@
+<label
+
+    class="InputContainer c-bg-3 h-pr-fl-ma c-br-2 of-hidden {{orientation}} {{theme}} {{type}} {{size}} {{className}} {{width}} ">
+
+    <div
+        *ngIf="IconLeft"
+        class="InputIconLeft flex-auto b-s-b-b f-s-inh h-100 h-pr-fl-ma c-inh {{size}} {{theme}} ">
+        <i class="w-100 h-100 h-pr-fl-ma t-a-c r-h-c {{IconLeft}}"></i>
+    </div>
+
+    <div class="Input flex-auto h-pr-fl-ma">
+        <input name="{{Name}}" placeholder={{placeholder}} type="{{type}}"
+            class="h-100 h-pr-fl-ma f-s-inh h-e {{aligntext}} {{theme}} {{className}} {{width}}"/>{{children}}
+    </div>
+
+    <div
+        *ngIf="IconRight"
+        class="InputIconRight flex-auto b-s-b-b f-s-inh h-100 h-pr-fl-ma c-inh {{size}} {{theme}}">
+        <i class="w-100 h-100 h-pr-fl-ma t-a-c r-h-c {{IconRight}} "></i>
+    </div>
+    <Btn
+        *ngIf="SearchBtn"
+        class="InputIconRight {{size}} {{theme}} flex-auto b-s-b-b f-s-inh h-100 h-pr-fl-ma c-inh">
+        <i class="w-100 h-100 h-pr-fl-ma t-a-c r-h-c {{IconRight}}"></i>
+    </Btn>
+
+</label>

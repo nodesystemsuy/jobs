@@ -1,0 +1,11 @@
+type Mutation {
+    createBlackList(input: RequestNewBlackList!): ResponseBlackList!
+    updateBlackList(input: RequestNewBlackList!): ResponseBlackList!
+    deleteBlackList(id: Int!): ResponseBlackList!
+
+}
+
+type Query {
+    getBlackList: AllResponseBlackList!
+    getBlackListByID(id: Int!): AllResponseBlackList!
+}
