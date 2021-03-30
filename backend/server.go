@@ -1,9 +1,9 @@
 package main
 
 import (
-	"gitlab.com/nodesystems/jobs/backend/api"
-	"gitlab.com/nodesystems/jobs/backend/internal/configuration"
-	"gitlab.com/nodesystems/jobs/backend/internal/logger"
+	"github.com/nodesystems/jobs/backend/api"
+	"github.com/nodesystems/jobs/backend/internal/configuration"
+	"github.com/nodesystems/jobs/backend/internal/logger"
 )
 
 func main() {
