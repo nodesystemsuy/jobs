@@ -1,0 +1,273 @@
+
+.Btn {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    margin: 0;
+    background: none;
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-origin: none;
+    background-image: none;
+    font-family: var(--current-font-family-1), 'Font Awesome 5 Free';
+    color: var(--current-color-5);
+    border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: content-box;
+    font-size: inherit;
+  
+  
+  }
+  .Btn.w-100{
+    width: 100% !important;
+    box-sizing: border-box;
+    text-align: center !important;
+  
+  }
+  .Btn.w-100 i.BtnIconLeft{
+    margin-left: 0px;
+    text-align: center !important;
+  
+  
+  }
+  .Btn.w-100 i.BtnIconRight{
+    margin-right: 0px;
+  
+  
+  }
+  .Btn.nano{
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: var(--current-font-nano);
+  }
+  
+  .Btn.small{
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: var(--current-font-small);
+  }
+  
+  .Btn.normal{
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: var(--current-font-normal);
+  
+  }
+  
+  
+  .Btn.medium{
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: var(--current-font-medium);
+  
+  }
+  
+  .Btn.big {
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: var(--current-font-big);
+  
+  }
+  
+  .Btn.giant{
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: var(--current-font-giant);
+  }
+  
+  .BtnIcon {
+    width: auto;
+    margin: auto;
+    color: inherit;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    padding: inherit;
+  
+  
+  }
+  
+  .BtnIconLeft {
+     width: auto;
+     height: auto;
+     margin: auto;
+     margin-right: 5px;
+     color: inherit;
+     box-sizing: border-box;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     vertical-align: middle;
+  
+  
+  }
+  .BtnIconLeft.fa-spin{
+    margin-right: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+  
+  }
+  
+  
+  .BtnIconRight {
+    width: auto;
+    margin: auto;
+    margin-left: 5px;
+    color: inherit;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+  
+  
+  }
+  .BtnIconRight.fa-spin{
+    margin-left: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+  
+  }
+  
+  .BtnText {
+    font-weight: bold;
+    font-family: inherit;
+    color: inherit;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: inherit;
+  
+  }
+  
+  /* CONTROLES */
+  
+  .Btn.close::before{
+    content: "\f00d";
+    background-color: var(--current-color-red) !important;
+    color: white;
+    font-size: inherit;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Solid 900 - Regular 400 */
+    padding: var(--current-padding-1);
+    box-sizing: border-box;
+     border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+  }
+  
+  .Btn.minimize::before{
+    content: "\f2d1";
+    background-color: var(--current-color-2) !important;
+    color: var(--current-color-5) !important;
+    font-size: inherit;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Solid 900 - Regular 400 */
+    padding: var(--current-padding-1);
+    box-sizing: border-box;
+    border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+  }
+  
+  .Btn.maximize::before{
+    content: "\f2d0";
+    background-color: var(--current-color-2) !important;
+    color: var(--current-color-5) !important;
+    font-size: inherit;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400; /* Solid 900 - Regular 400 */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: var(--current-padding-1);
+    box-sizing: border-box;
+    border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+  }
+  
+  /* CONTROLES MULTIMEDIA */
+  
+  .Btn.play::before{
+    content: "\f04b";
+    background-color: var(--current-color-2) !important;
+    color: var(--current-color-5) !important;
+    font-size: inherit;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Solid 900 - Regular 400 */
+    padding: var(--current-padding-1);
+    box-sizing: border-box;
+    border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+  }
+  
+  .Btn.pause::before{
+    content: "\f04c";
+    background-color: var(--current-color-2) !important;
+    color: var(--current-color-5) !important;
+    font-size: inherit;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Solid 900 - Regular 400 */
+    padding: var(--current-padding-1);
+    box-sizing: border-box;
+    border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+  }
+  
+  .Btn.stop::before{
+    content: "\f04d";
+    background-color: var(--current-color-2) !important;
+    color: var(--current-color-5) !important;
+    font-size: inherit;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Solid 900 - Regular 400 */
+    padding: var(--current-padding-1);
+    box-sizing: border-box;
+    border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+  }
+  
+  .Btn.volume::before{
+    content: "\f027";
+    background-color: var(--current-color-2) !important;
+    color: var(--current-color-5) !important;
+    font-size: inherit;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Solid 900 - Regular 400 */
+    padding: var(--current-padding-1);
+    box-sizing: border-box;
+    border-radius: var(--current-border-radius-1);
+    -webkit-border-radius: var(--current-border-radius-1);
+    -moz-border-radius: var(--current-border-radius-1);
+    -ms-border-radius: var(--current-border-radius-1);
+    -o-border-radius: var(--current-border-radius-1);
+  }
+  

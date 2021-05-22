@@ -19,6 +19,10 @@
 
 /* CSS FOR COMPONENTS 'JOBS */
 /* =================-------| NOTIFYBOX |-------================= */
+
+
+
+
 .NotifyBox {
   position: absolute !important;
   margin: auto !important;
@@ -381,7 +385,7 @@
 .w-95vw {
     width: 95vw;
 }
-.v-100vw {
+.w-100vw {
     width: 100vw;
 }
 
@@ -2002,6 +2006,36 @@
 .bg-black-node-o-90 {
     background: rgba(18, 18, 18, 0.9) !important;
 }
+
+.bg-white-node-o-10 {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+.bg-white-node-o-20 {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+.bg-white-node-o-30 {
+    background: rgba(255, 255, 255, 0.3) !important;
+}
+.bg-white-node-o-40 {
+    background: rgba(255, 255, 255, 0.4) !important;
+}
+.bg-white-node-o-50 {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+.bg-white-node-o-60 {
+    background: rgba(255, 255, 255, 0.6) !important;
+}
+.bg-white-node-o-70 {
+    background: rgba(255, 255, 255, 0.7) !important;
+}
+.bg-white-node-o-80 {
+    background: rgba(255, 255, 255, 0.8) !important;
+}
+.bg-white-node-o-90 {
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+
 
 /*
 
